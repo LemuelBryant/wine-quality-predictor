@@ -4,9 +4,9 @@ An end-to-end data science project using **scikit-learn** to predict wine qualit
 
 ## Project Status
 
-**Current Stage:** Initial project setup
+**Current Stage:** Data loading and inspection (Red Wine Dataset)
 
-Completed:
+### Completed
 
 * Created project directory structure
 * Initialized Git repository
@@ -14,9 +14,10 @@ Completed:
 * Installed core project dependencies
 * Downloaded the Wine Quality datasets (red and white wine)
 * Added project documentation and Git configuration files
-* Load and inspect the datasets
+* Loaded and inspected the red wine dataset
+* Verified data integrity and structure
 
-Future milestones:
+### Upcoming Milestones (Red Wine Dataset)
 
 * Perform exploratory data analysis (EDA)
 * Clean and preprocess the data
@@ -25,7 +26,25 @@ Future milestones:
 * Compare model performance
 * Tune hyperparameters
 * Evaluate the final model
-* Deploy the model with a web application (if appropriate)
+
+### Future Phases
+
+**Phase 2 – White Wine Dataset**
+
+* Repeat the complete machine learning workflow using the white wine dataset.
+* Compare model performance and feature importance with the red wine model.
+
+**Phase 3 – Combined Dataset (Optional)**
+
+* Merge the red and white wine datasets.
+* Add a `wine_type` feature.
+* Train and evaluate a unified prediction model.
+* Compare the unified model with the separate red and white wine models.
+
+**Deployment**
+
+* Develop and deploy an interactive web application (if appropriate) to demonstrate the final model.
+
 
 ## Technologies
 
@@ -94,7 +113,5 @@ The goals of this project are to:
 * Demonstrate best practices in project organization, version control, and documentation.
 
 ## License
-
-The source code in this repository is licensed under the MIT License (if a LICENSE file is included).
 
 The Wine Quality dataset remains the property of its original authors and is used in accordance with the terms provided by the UCI Machine Learning Repository.
