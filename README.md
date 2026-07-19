@@ -17,10 +17,10 @@ An end-to-end data science project using **scikit-learn** to predict wine qualit
 * Loaded and inspected the red wine dataset
 * Verified data integrity and structure
 * Perform exploratory data analysis (EDA)
+* Clean and preprocess the data
 
 ### Upcoming Milestones (Red Wine Dataset)
 
-* Clean and preprocess the data
 * Engineer features
 * Train baseline machine learning models
 * Compare model performance
