@@ -21,11 +21,10 @@ An end-to-end data science project using **scikit-learn** to predict wine qualit
 * Engineer features
 * Train baseline machine learning models
 * Compare model performance
-
-### Upcoming Milestones (Red Wine Dataset)
-
 * Tune hyperparameters
 * Evaluate the final model
+
+### Upcoming Milestones (Red Wine Dataset)
 
 ### Future Phases
 
@@ -57,32 +56,38 @@ The project currently uses:
 * Seaborn
 * scikit-learn
 * Jupyter Notebook
+* joblib 1.5.3
 
-Additional packages such as **joblib** and **Streamlit** will be added later as they become necessary during model development and deployment.
+Additional package **Streamlit** will be added later as they become necessary during model development and deployment.
 
 ## Project Structure
 
-```text
 wine-quality-predictor/
-│
 ├── app/
+├── assets/
 ├── data/
 │   ├── raw/
 │   └── processed/
 ├── models/
 ├── notebooks/
-├── reports/
-│   └── figures/
-├── src/
-│   ├── data/
-│   ├── features/
-│   ├── models/
-│   └── visualization/
-├── tests/
+│   ├── red_wine/
+│   │   ├── 01_load_data.ipynb
+│   │   ├── 02_eda.ipynb
+│   │   ├── 03_data_cleaning.ipynb
+│   │   ├── 04_scaling.ipynb
+│   │   ├── 05_feature_engineering.ipynb
+│   │   ├── 06_modeling.ipynb
+│   │   └── 07_hyperparameter_tuning.ipynb
+│   └── white_wine/
+│       ├── 01_load_data.ipynb
+│       ├── 02_eda.ipynb
+│       ├── 03_data_cleaning.ipynb
+│       ├── 04_feature_engineering.ipynb
+│       ├── 05_modeling.ipynb
+│       └── 06_hyperparameter_tuning.ipynb
 ├── .gitignore
 ├── README.md
 └── requirements.txt
-```
 
 ## Dataset
 
