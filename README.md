@@ -64,6 +64,7 @@ Additional package **Streamlit** will be added later as they become necessary du
 
 wine-quality-predictor/
 ├── app/
+│   └── streamlit_app.py
 ├── assets/
 ├── data/
 │   ├── raw/
